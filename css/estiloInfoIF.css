@@ -1,0 +1,420 @@
+/* .indiciplina{
+overflow: scroll;
+} */
+.dropdown-menu {
+    margin: 0px -3px;
+    padding: 0px;
+}
+
+.dropdown-menu{
+    color: black;
+    filter: drop-shadow(4px 4px 4px black);
+}
+.dropdown-item:hover {
+    background-color: unset !important;
+}
+
+p{
+    font-size: 3vh;
+}
+
+h1 {
+    font-size: 3rem !important;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3vh !important;
+}
+
+/* #clica{
+    width: 5vh;
+    height: 5vh;
+} */
+
+
+
+.col-form-label{
+    font-size: 3vh !important;
+    padding-right: 2vh !important;
+    margin-left: 2vh; 
+}
+.nao{
+    margin-right: 5vh !important;
+}
+
+.card-header{
+    color: white;
+}
+.card{
+    border: none !important;
+    background-color: transparent !important;
+    color: #005FF9 !important;
+}
+.card-header{
+    background-color: transparent !important; 
+    color: white !important;
+    border-color: white !important;
+}
+.card-body{
+    background-color: transparent !important;
+    color: white !important;
+    
+}
+.btn-link{
+    color: white !important;
+}
+.btn-link:hover{
+    background-color: transparent !important;
+    color: white !important;
+    font-style: italic !important;
+    text-decoration: none !important;
+    box-shadow: none !important;
+}
+
+.btn-link:focus, .btn:active{
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+.bt{
+    background-color: white !important;
+    color: #005FF9 !important;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.bt:hover{
+    background-color: white !important; 
+    color: #005FF9 !important;
+    font-style: italic;
+}
+#mailInfo{
+    font-size: 1rem !important;
+}
+#emailTo{
+    color: white;
+}
+
+#emailTo:hover{
+    font-style: italic;
+}
+.form-group{
+    padding-left: 1rem !important;
+}
+/* html{
+    overflow: scroll;
+    height: 100%;
+} */
+.indiciplina {
+    min-height: 85vh;
+    max-height: 100%;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
+
+
+/* //Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    #rodape {
+        bottom: unset;
+        height: max-content;
+        margin: unset;
+        padding-bottom: 2rem !important;
+    }
+    #rodape .col {
+        margin-top: 0 !important;
+    }
+    
+    /* .indiciplina {
+        height: max-content;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        width: 100%;
+    } */
+    #sai{
+        display: none;
+    }
+    
+    /* #clica{
+        width: 4vh !important;
+        height: 4vh !important;
+    } */
+    h1{
+        font-size: 3rem !important;
+    }
+    #mailInfo{
+        font-size: 1rem !important;
+    }
+    #info{
+        border: none !important;
+        padding-left: 2vh !important;
+    }
+    .form-group label{
+        display: flex !important;
+        flex-direction: row !important;
+        font-size: 1rem !important;
+    }
+    .form-group input{
+        display: flex !important;
+        flex-direction: row !important;
+        min-width: 18rem;
+        max-width: 20rem;
+    }
+    #geral{
+        flex-basis: unset !important;       
+    }
+    h2, .card-header h2 .btn{
+        font-size: 1.2rem !important;
+    }
+    
+}
+
+
+/* //Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #rodape {
+        bottom: unset;
+        height: max-content !important;
+        margin-top: 2vh !important;
+    }
+
+    #rodape .col {
+        margin-top: 0 !important;
+    }
+    
+    /* .indiciplina {
+        height: max-content;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    } */
+    #sai{
+        display: none;
+    }
+    
+    /* #clica{
+        width: 6vh;
+        height: 8vh;
+    } */
+    h2, .card-header h2 .btn{
+        font-size: 1.5rem !important;
+    }
+    h1{
+        font-size: 3rem !important;
+    }
+   #info{
+        border-right: unset !important;  
+    }
+    .form-group{
+        padding-top: 0.1rem !important;
+    }
+    #mailInfo{
+        font-size: 1rem !important;
+    }
+    .col-form-label{
+        font-size: 1.3rem!important;
+    }
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    .indiciplina {
+        padding-top: 3rem !important;
+    }
+    #rodape {
+        bottom: unset;
+        height: max-content;
+    }
+
+    #sai{
+        display: none;
+    }
+   
+    .form-group #Ncampus{
+        min-width: 7rem !important;
+    }
+    .form-group #Nlocalidade{
+        min-width: 7rem !important;
+    }
+    .form-group #Nalunos{
+        min-width: 8rem !important;
+    }
+    .form-group #Nlixeiras{
+        min-width: 7rem !important;
+    }
+    h1{
+        font-size: 3rem !important;
+    }
+    #mailInfo{
+        font-size: 1rem !important;
+        padding-top: 8vh !important;
+    }
+    .col-form-label{
+        font-size: 1rem!important;
+    }
+    h2{
+        font-size: 1.3rem !important;
+    }
+    #Ncampus,#Nlocalidade,#Nalunos,#Nlixeiras,#lix,#alu,#loc,#camp{
+        font-size: 1rem !important;
+    }
+    #loc{
+        padding-right: 6rem !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) and (max-height:575.98px){
+    /* .indiciplina {
+        height: max-content;
+        padding-top: 5vh;
+        padding-bottom: 15vh;
+        background-color: blueviolet !important;
+    } */
+ }
+
+@media (min-width: 768px) and (max-width: 991.98px) and (min-height:576px) and (max-height: 767.98px){
+    
+    /* .indiciplina {
+        height: max-content;
+        padding-top: 5vh;
+        padding-bottom: 10vh;
+        background-color: #ffd900 !important;
+    } */
+}
+@media (min-width: 768px) and (max-width: 991.98px) and (min-height: 768px){
+    
+    /* .indiciplina {
+        height: 80vh;
+        padding-top: 5vh;
+        padding-bottom: 10vh;
+        background-color: brown !important;
+    } */
+    #rodape {
+        bottom: unset;
+        height: max-content;
+    }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* .indiciplina {
+        height: max-content;
+        padding-top: 5vh;
+        padding-bottom: 10vh;
+    } */
+
+    #sair{
+        display: none;
+    }
+    h1 {
+        font-size: 2.5rem !important;
+    }
+    h2 .btn-link,h2{
+        font-size: 1.3rem !important;
+    }
+    .card-body, .card-body .btn{
+        font-size: 1rem !important;
+    }
+    .card-body small{
+        font-size: 1rem !important;
+    }
+    #mailInfo{
+        font-size: 1.3rem !important;
+        padding-top: 3rem !important;
+    }
+    #Ncampus,#Nlocalidade,#Nalunos,#Nlixeiras,#lix,#alu,#loc,#camp{
+        font-size: 1.3rem !important;
+    }
+    .btn-block svg{
+        height: 1.3rem !important;
+        width: 1.3rem !important;
+    }
+    #loc{
+        padding-right: 8rem !important;
+    }
+    
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 2559.98px) {
+    /* .indiciplina {
+        height: max-content;
+        padding-top: 8vh;
+        padding-bottom: 15vh;
+    } */
+    #sair{
+        display: none;
+    }
+    h2 .btn-link,h2{
+        font-size: 2rem !important;
+    }
+    .card-body, .card-body .btn{
+        font-size: 1.5rem !important;
+    }
+    .card-body small{
+        font-size: 1rem !important;
+    }
+    #mailInfo{
+        font-size: 1.7rem !important;
+        padding-top: 5rem !important;
+    }
+    #Ncampus,#Nlocalidade,#Nalunos,#Nlixeiras,#lix,#alu,#loc,#camp{
+        font-size: 1.5rem !important;
+    }
+    .btn-block svg{
+        height: 1.5rem !important;
+        width: 1.5rem !important;
+    }
+    h1{
+        font-size: 4rem !important;
+    }
+}
+
+@media (min-width: 2560px) {
+    /* .indiciplina {
+        height: max-content;
+        padding-top: 18vh;
+        padding-bottom: 18vh;
+    } */
+
+    #sair{
+        display: none;
+    }
+    #subNav a{
+        padding-right: 5rem;
+    }
+    h2 .btn-link,h2{
+        font-size: 3.5rem !important;
+    }
+    .card-body{
+        font-size: 3.5rem !important;
+    }
+    .card-body small{
+        font-size: 2rem !important;
+    }
+    .card-body .btn{
+        font-size: 2.5rem !important;
+        margin-left: 1rem;
+    }
+    #Ncampus,#Nlocalidade,#Nalunos,#Nlixeiras,#lix,#alu,#loc,#camp{
+        font-size: 3rem !important;
+    }
+    #mailInfo{
+        font-size: 3rem !important;
+        padding-top: 10rem !important;
+    }
+    .btn-block svg{
+        height: 4rem !important;
+        width: 4rem !important;
+    }
+    h1{
+        font-size: 6rem !important;
+    }
+    .indiciplina {
+        padding-top: 8rem;
+        padding-bottom: 4rem;
+    }
+}

@@ -1,0 +1,337 @@
+.dropdown-menu {
+    margin: 0px -3px;
+    padding: 0px;
+}
+.dropdown-menu{
+    color: black;
+    filter: drop-shadow(4px 4px 4px black);
+}
+
+.dropdown-item:hover {
+    background-color: unset !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+p{
+    font-size: 1.3rem;
+}
+
+h1 {
+    font-size: 3rem !important;
+    text-align: center; 
+}
+
+
+#enviar{
+    background-color: white !important;
+    color: #005FF9;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#enviar:hover{
+    /* background-color: #d3d3d3 !important; */
+    color: #005FF9;
+    font-style: italic;
+}
+
+.form-group label{
+    font-size: 1.5rem !important;
+}
+
+
+#inputDia,#inputMes,#inputAno{
+    /* border-radius: 10px; */
+    width: 10rem !important;
+    text-align: center;
+}
+
+
+
+/* #inputlocal, #inputtipo, #inputQtd{
+    border-radius: 10px;
+    width: 70vh !important;
+} */
+
+/* input, select, textarea{
+    width: 40rem !important;
+} */
+.indiciplina {
+    min-height: 82vh;
+    max-height: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* //Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    #rodape {
+        bottom: unset;
+        height: max-content !important;
+        margin-bottom: 2rem !important;
+        margin-top: 2rem !important;
+    }
+    #rodape .col {
+        margin-top: 0 !important;
+    }
+   
+    /* .indiciplina {
+        height: max-content;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    } */
+    #sai{
+        display: none;
+    }
+    #text_white, #data, #inputDia{
+        justify-items: center !important;
+        align-items: center !important;
+        text-align: center !important;
+    }
+    #titulo h1{
+        font-size: 2.5rem !important;
+    }
+    .form-group label,#data label{
+        font-size: 1.3rem !important;
+    }
+    input,select{
+        font-size: 1rem !important;
+    }
+    .btn{
+        margin-top: 1rem !important;
+        font-size: 1rem !important;
+    }
+    p{
+        font-size: 1.3rem;
+    }
+    #inputlocal, #inputtipo,#inputQtd{
+        width: 18rem !important;
+    }
+    
+    
+}
+
+
+/* //Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #rodape {
+        bottom: unset;
+        margin-bottom: 2rem !important;
+        margin-top: 1rem !important;
+    }
+
+    #rodape .col {
+        margin-top: 0 !important;
+    }
+   
+    /* .indiciplina {
+        height: max-content;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    } */
+    #sai{
+        display: none;
+    }
+    #text_white{
+        align-items: center !important;
+    }
+    #titulo h1{
+        font-size: 2.5rem !important;
+    }
+    .form-group label,#data label{
+        font-size: 1.3rem !important;
+    }
+    input,select{
+        font-size: 1rem !important;
+    }
+    .btn{
+        margin-top: 1rem !important;
+        font-size: 1rem !important;
+    }
+    p{
+        font-size: 1.3rem;
+    }
+    #inputlocal, #inputtipo,#inputQtd{
+        width: 25rem !important;
+    }
+
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) and (max-width: 991.98px) and (orientation: landscape) */
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    
+    /* .indiciplina {
+        height: max-content;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    } */
+
+    #rodape {
+        bottom: unset;
+    }
+    /* input{
+        font-size: 2rem !important;
+    } */
+    #sai{
+        display: none;
+    }
+    #text_white{
+        align-items: center !important;
+    }
+    #titulo h1{
+        font-size: 3rem !important;
+    }
+    .form-group label,#data label{
+        font-size: 1.5rem !important;
+    }
+    input,select{
+        font-size: 1.5rem !important;
+    }
+    .btn{
+        margin-top: 1rem !important;
+        font-size: 1.5rem !important;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    #inputlocal, #inputtipo,#inputQtd{
+        width: 30rem !important;
+    }
+    
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* .indiciplina {
+        height: max-content;
+        padding-top: 10vh;
+        padding-bottom: 5vh;
+    } */
+
+    #sair{
+        display: none;
+    } 
+
+    /* input, select{
+        width: 90vh !important;
+        height: 6vh !important;
+        font-size: 2vh !important;
+    } */
+    #rodape{
+        height: max-content;
+    }
+    #text_white{
+        align-items: center !important;
+    }
+    #titulo h1{
+        font-size: 3.5rem !important;
+    }
+    .form-group label,#data label{
+        font-size: 1.5rem !important;
+    }
+    input,select{
+        font-size: 1.5rem !important;
+    }
+    .btn{
+        margin-top: 1rem !important;
+        font-size: 1.5rem !important;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    #inputlocal, #inputtipo,#inputQtd{
+        width: 30rem !important;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 2559.98px) {
+    /* .indiciplina {
+        height: max-content;
+        padding-top: 8vh;
+        padding-bottom: 8vh;
+    } */
+    p{
+        padding-left: 2rem !important;
+    }
+   
+    #sair{
+        display: none;
+    }
+    #text_white{
+        align-items: center !important;
+    }
+    #titulo h1{
+        font-size: 4rem !important;
+    }
+    .form-group label,#data label{
+        font-size: 2rem !important;
+    }
+    input,select{
+        font-size: 1.5rem !important;
+    }
+    .btn{
+        margin-top: 1rem !important;
+        font-size: 2rem !important;
+    }
+    p{
+        font-size: 2rem;
+    }
+    #inputlocal, #inputtipo,#inputQtd{
+        width: 35rem !important;
+    }
+}
+
+@media (min-width: 2560px) {
+    /* .indiciplina {
+        height: max-content;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    } */
+
+    #sair{
+        display: none;
+    }
+    #subNav a{
+        padding-right: 5rem;
+    }
+    #text_white{
+        align-items: center !important;
+    }
+    #titulo h1{
+        font-size: 7rem !important;
+    }
+    .form-group label,#data label{
+        font-size: 3.5rem !important;
+    }
+    input,select{
+        font-size: 2.5rem !important;
+    }
+    .btn{
+        margin-top: 2rem !important;
+        font-size: 3.5rem !important;
+    }
+    p{
+        font-size: 3.5rem;
+    }
+    #inputlocal, #inputtipo,#inputQtd{
+        width: 70rem !important;
+    }
+    #inputDia,#inputMes,#inputAno{
+        /* border-radius: 10px; */
+        width: 20rem !important;
+        text-align: center;
+    }
+    #rodape{
+        height: max-content;
+    }
+    
+
+}

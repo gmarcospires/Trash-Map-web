@@ -1,0 +1,439 @@
+/* .indiciplina{
+overflow: scroll;
+} */
+.dropdown-menu {
+    margin: 0px -3px;
+    padding: 0px;
+}
+
+.dropdown-menu{
+    color: black;
+    filter: drop-shadow(4px 4px 4px black);
+}
+.dropdown-item:hover {
+    background-color: unset !important;
+}
+
+p{
+    font-size: 3vh;
+}
+
+h1 {
+    font-size: 3rem !important;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3vh !important;
+}
+
+/* #clica{
+    width: 5vh;
+    height: 5vh;
+} */
+
+
+
+.col-form-label{
+    font-size: 3vh !important;
+    padding-right: 2vh !important;
+    margin-left: 2vh; 
+}
+.nao{
+    margin-right: 5vh !important;
+}
+
+.card-header{
+    color: white;
+}
+.card{
+    border: none !important;
+    background-color: transparent !important;
+    color: #005FF9 !important;
+}
+
+.card-header{
+    background-color: transparent !important; 
+    color: white !important;
+    border-color: white !important;
+}
+.card-body{
+    background-color: transparent !important;
+    color: white !important;
+    
+}
+.c{
+    border: initial !important;
+    background-color: white !important;
+    color: darkslateblue !important;
+    border-radius: 5px;
+}
+.btn-link{
+    color: white !important;
+}
+.btn-link:hover{
+    background-color: transparent !important;
+    color: white !important;
+    font-style: italic !important;
+    text-decoration: none !important;
+    box-shadow: none !important;
+}
+
+.btn-link:focus, .btn:active{
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+#enviar{
+    background-color: white !important;
+    color: #005FF9 !important;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#enviar:hover{
+    background-color: white !important; 
+    color: #005FF9 !important;
+    font-style: italic;
+}
+
+#emailTo{
+    color: white;
+}
+
+#emailTo:hover{
+    font-style: italic;
+}
+.form-group{
+    padding-left: 2vh !important;
+}
+/* html{
+    overflow: scroll;
+    height: 100%;
+} */
+.indiciplina {
+    min-height: 90vh;
+    max-height: 100%;
+    padding-top: 7vh;
+    padding-bottom: 5vh;
+}
+/* Esconde o input */
+input[type='file'] {
+    display: none
+  }
+  
+  /* Aparência que terá o seletor de arquivo */
+  .labelMap {
+    background-color: #fff  !important;
+    border-radius: 6px;
+    color: #005FF9;
+    cursor: pointer;
+    margin: 10px;
+    padding: 6px 20px
+  }
+
+/* //Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    
+    #rodape {
+        bottom: unset;
+        height: max-content;
+        margin: unset;
+        padding-bottom: 2rem !important;
+    }
+    #rodape .col {
+        margin-top: 0 !important;
+    }
+    
+    /* .indiciplina {
+        height: max-content;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        width: 100%;
+    } */
+    #sai{
+        display: none;
+    }
+    
+    #clica{
+        width: 4vh !important;
+        height: 4vh !important;
+    }
+    h1{
+        font-size: 3rem !important;
+    }
+    #mailInfo{
+        font-size: 2vh !important;
+    }
+    #info{
+        border: none !important;
+        padding-left: 2vh !important;
+    }
+    .form-group label{
+        display: flex !important;
+        flex-direction: row !important;
+        font-size: 1rem !important;
+    }
+    .form-group input{
+        display: flex !important;
+        flex-direction: row !important;
+    }
+    #geral{
+        flex-basis: unset !important;       
+    }
+    h2, .card-header h2 .btn{
+        font-size: 1.2rem !important;
+    }
+    #geral{
+        padding-top: 2rem !important;
+    }
+}
+
+
+/* //Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #rodape {
+        bottom: unset;
+        height: max-content !important;
+        margin-top: 2vh !important;
+    }
+
+    #rodape .col {
+        margin-top: 0 !important;
+    }
+    
+    /* .indiciplina {
+        height: max-content;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    } */
+    #sai{
+        display: none;
+    }
+    
+    #clica{
+        width: 6vh;
+        height: 8vh;
+    }
+    h2, .card-header h2 .btn{
+        font-size: 1.5rem !important;
+    }
+    h1{
+        font-size: 3rem !important;
+    }
+   #info{
+        border-right: unset !important;  
+    }
+    .form-group{
+        padding-top: 0.1rem !important;
+    }
+    #mailInfo{
+        font-size: 1rem !important;
+    }
+    #geral{
+        padding-top: 2rem !important;
+    }
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    
+    #rodape {
+        bottom: unset;
+        height: max-content;
+    }
+
+    #sai{
+        display: none;
+    }
+    h1 {
+        font-size: 2.5rem !important;
+    }
+    h2 .btn-link,h2{
+        font-size: 1.4rem !important;
+    }
+    
+    .card-body,p{
+        font-size: 1.3rem !important;
+    }
+    #mailInfo{
+        font-size: 1.2rem !important;
+        padding-top: 5rem !important;
+        
+    }
+    #inputlx,#inputdeta,#selecao-arquivo,label,.btn,span{
+        font-size: 1rem !important;
+    }
+    .gsvg svg{
+        height: 1.7rem !important;
+        width: 1.7rem !important;
+    }
+    .btn-block svg{
+        height: 1.5rem !important;
+        width: 1.5rem !important;
+    }
+    #mud{
+        padding-bottom: 2rem !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) and (max-height:575.98px){
+    /* .indiciplina {
+        height: max-content;
+        padding-top: 5vh;
+        padding-bottom: 15vh;
+        background-color: blueviolet !important;
+    } */
+ }
+
+@media (min-width: 768px) and (max-width: 991.98px) and (min-height:576px) and (max-height: 767.98px){
+    
+    /* .indiciplina {
+        height: max-content;
+        padding-top: 5vh;
+        padding-bottom: 10vh;
+        background-color: #ffd900 !important;
+    } */
+}
+@media (min-width: 768px) and (max-width: 991.98px) and (min-height: 768px){
+    
+    /* .indiciplina {
+        height: 80vh;
+        padding-top: 5vh;
+        padding-bottom: 10vh;
+        background-color: brown !important;
+    } */
+    #rodape {
+        bottom: unset;
+        height: max-content;
+    }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* .indiciplina {
+        height: max-content;
+        padding-top: 5vh;
+        padding-bottom: 10vh;
+    } */
+
+    h1 {
+        font-size: 2.5rem !important;
+    }
+    h2 .btn-link,h2{
+        font-size: 1.7rem !important;
+    }
+    
+    .card-body,p{
+        font-size: 1.5rem !important;
+    }
+    #mailInfo{
+        font-size: 1.5rem !important;
+        padding-top: 5rem !important;
+        
+    }
+    #inputlx,#inputdeta,#selecao-arquivo,label,.btn,span{
+        font-size: 1rem !important;
+    }
+    .gsvg svg{
+        height: 1.7rem !important;
+        width: 1.7rem !important;
+    }
+    .btn-block svg{
+        height: 1.5rem !important;
+        width: 1.5rem !important;
+    }
+    #mud{
+        padding-bottom: 2rem !important;
+    }
+    #sair{
+        display: none;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 2559.98px) {
+    /* .indiciplina {
+        height: max-content;
+        padding-top: 8vh;
+        padding-bottom: 15vh;
+    } */
+    #sair{
+        display: none;
+    }
+    h1{
+        font-size: 3.5rem !important;
+    }
+    h2 .btn-link, h2{
+        font-size: 2rem !important;
+    }
+    .card-body,p{
+        font-size: 1.5rem !important;
+    }
+    #mailInfo{
+        font-size: 1.5rem !important;
+        padding-top: 5rem !important;
+        
+    }
+    #inputlx,#inputdeta,#selecao-arquivo,label,.btn,span{
+        font-size: 1.5rem !important;
+    }
+    .gsvg svg{
+        height: 2.3rem !important;
+        width: 2.3rem !important;
+    }
+    .btn-block svg{
+        height: 1.5rem !important;
+        width: 1.5rem !important;
+    }
+    #mud{
+        padding-bottom: 3rem !important;
+    }
+}
+
+@media (min-width: 2560px) {
+    /* .indiciplina {
+        height: max-content;
+        padding-top: 18vh;
+        padding-bottom: 18vh;
+    } */
+
+    #sair{
+        display: none;
+    }
+    #subNav a{
+        padding-right: 5rem;
+    }
+    h2 .btn-link,h2{
+        font-size: 4rem !important;
+    }
+    h1{
+        font-size: 6rem !important;
+    }
+    .card-body,p{
+        font-size: 2.5rem !important;
+    }
+    #mailInfo{
+        font-size: 2.5rem !important;
+        padding-top: 5rem !important;
+        
+    }
+    #inputlx,#inputdeta,#selecao-arquivo,label,.btn,span{
+        font-size: 2.5rem !important;
+    }
+    .gsvg svg{
+        height: 3.5rem !important;
+        width: 3.5rem !important;
+    }
+    .btn-block svg{
+        height: 4rem !important;
+        width: 4rem !important;
+    }
+    #mud{
+        padding-bottom: 4rem !important;
+    }
+    
+}

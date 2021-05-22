@@ -1,0 +1,247 @@
+
+
+.form , h1{
+    text-align: center;
+}
+
+span{
+    padding: auto;
+}
+input, select{
+    box-shadow: 0px 1px 2px rgba(50, 43, 95, 0.08);
+border-radius: 4px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+
+.criarAlun{
+    text-align: center;
+    padding: 20px;
+}
+
+/* .modal_ok{
+    background-color: #005FF9 !important;
+    color: #005FF9;
+}
+
+.modal_ok:hover{
+    background-color:  white !important;
+    border-color: #005FF9 !important;
+    color: #005FF9 !important;
+} */
+
+svg{
+    color: #005FF9;
+}
+
+#criar{
+    background-color: white !important;
+    color: #005FF9;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#criar:hover{
+    /* background-color: #d3d3d3 !important; */
+    color: #005FF9;
+    font-style: italic;
+}
+
+/* .indiciplina{
+    height: 83vh;
+    background-color: #005FF9; 
+} */
+#rodape{
+    bottom: 0;
+}
+ #c_blue{
+    min-height: 83vh;
+    max-height: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* body {
+    height: 100%;
+} */
+
+/* //Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    #rodape{
+        bottom: unset;
+        height: max-content;
+    }
+    /* .indiciplina {
+        height: max-content;
+    } */
+    h1{
+        font-size: 2rem !important;
+    }
+    label{
+        font-size: 1.5rem !important;
+    }
+    input,select{
+        font-size: 1rem !important;
+    }
+    .btn{
+        font-size: 1rem !important;
+    }
+    span{
+        font-size: 1rem;
+        padding-bottom: 1rem;
+    }
+
+}
+
+/* //Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #rodape{
+        bottom: unset;
+        height: max-content;
+    }
+    /* .indiciplina {
+        height: max-content;
+        background-color: aqua !important;
+    } */
+    /* #c_blue{
+        background-color: aqua !important;
+    } */
+    h1{
+        font-size: 2rem !important;
+    }
+    label{
+        font-size: 1.5rem !important;
+    }
+    input,select{
+        font-size: 1rem !important;
+    }
+    .btn{
+        font-size: 1rem !important;
+    }
+    span{
+        font-size: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #rodape{
+        bottom: unset;
+        height: max-content;
+    }
+    /* .indiciplina {
+        height: max-content;
+    } */
+}
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #rodape{
+        bottom: unset !important;
+        height: max-content;
+        min-height: max-content;
+        /* background-color: blueviolet !important; */
+    }
+    /* #c_blue{
+        background-color: yellowgreen !important;
+        height: max-content;
+        padding-bottom: 15vh;
+    }
+    .indiciplina {
+        height: max-content;
+    } */
+    h1{
+        font-size: 2rem !important;
+    }
+    label{
+        font-size: 1.5rem !important;
+    }
+    input,select{
+        font-size: 1rem !important;
+    }
+    .btn{
+        font-size: 1rem !important;
+    }
+    span{
+        font-size: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 2559.98px){
+    /* .indiciplina{
+        height: max-content !important;
+        padding-bottom: 13vh;
+    } */
+    #rodape{
+        bottom: unset;
+        height: max-content;
+    }
+    #c_blue{
+        height: max-content;
+        padding-bottom: 18vh;
+    }
+    h1{
+        font-size: 2rem !important;
+    }
+    label{
+        font-size: 1.5rem !important;
+    }
+    input,select{
+        font-size: 1rem !important;
+    }
+    .btn{
+        font-size: 1rem !important;
+    }
+    span{
+        font-size: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+
+@media (min-width: 2560px) {
+    #rodape{
+        bottom: unset;
+        height: max-content;
+        min-height: max-content;
+    }
+    /* .indiciplina {
+        height: max-content;
+    }
+    #c_blue{
+        height: max-content;
+        padding-bottom: 8vh;
+    } */
+    h1{
+        font-size: 5rem !important;
+    }
+    label{
+        font-size: 2.5rem !important;
+    }
+    input,select{
+        font-size: 2.5rem !important;
+    }
+    .btn{
+        font-size: 2.5rem !important;
+    }
+    span,small {
+        font-size: 1.5rem !important;
+        padding-bottom: 1rem;
+    }
+    .criarAlun{
+        padding: 5rem;
+    }
+    
+}

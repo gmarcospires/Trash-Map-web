@@ -1,0 +1,252 @@
+#mainNav {
+    width: 100%;
+    position: absolute;
+    z-index: 99;
+    font-size: xx-large;
+    
+}
+
+#mainNav #navbarResponsive .nav-item .btn {
+    border: solid white;
+    background-color: white;
+    color: black;
+    font-size: large;
+}
+
+#mainNav #navbarResponsive .nav-item a:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #005FF9;
+    transition: width .3s;
+}
+
+#mainNav #navbarResponsive .nav-item a:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+
+#mainNav ul li a,
+#mainNav div a {
+    color: white;
+    /* font-size: x-large; */
+    font-family: Inter,sans-serif,Arial;
+}
+
+#img_1 {
+    background-image: url("/image/if_sabara.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 100%;
+    filter: contrast(110%) saturate(2) opacity(70%) brightness(70%);
+}
+
+
+
+#text_proj {
+    position: absolute;
+    padding-left: 5rem;
+    padding-top: 20rem;
+    top: 5px;
+    align-items: center;
+    color: white;
+    max-width: 42rem;
+}
+
+#c_white .btn {
+    background-color: #005FF9;
+    color: white;
+    border-radius: 10px;
+}
+
+#c_white .btn:hover {
+    background-color: white;
+    color: #005FF9;
+}
+
+#text_black {
+    font-size: large;
+}
+
+.navbar #nameproj{
+    color: white !important;
+}
+
+#text_white {
+    font-size: large;
+}
+.navbar div #nameproj, .navbar div #navbarResponsive{
+    background-color: transparent;
+    filter: drop-shadow(8px 8px 10px gray);
+}
+
+/* //Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    #img_1 {
+        height: 50rem;
+        width: 100%;
+    }
+}
+
+/* //Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #img_1 {
+        height: 50rem;
+        width: 100%;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #img_1 {
+        height: 60rem;
+        width: 100%;
+    }
+    #i_img1{
+        height: 15rem;
+        width: auto;
+    }
+    #i_img2{
+        height: 14rem;
+        width: auto;
+    }
+    #i_img3{
+        height: 15rem;
+        width: auto;
+    }
+    #i_img4{
+        height: 15rem;
+        width: auto;
+    }
+    
+    /* .navbar div #nameproj {
+        font-size: x-large;
+    } */
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+    /* .navbar div #nameproj {
+        font-size: x-large;
+    } */
+
+    #img_1 {
+        height: 60rem;
+        width: 100%;
+    }
+
+    /* #mainNav ul li a,
+    #mainNav div a {
+        font-size: large;
+    } */
+
+    /* #mainNav #navbarResponsive .nav-item .btn {
+        font-size: small;
+    } */
+
+    /* .text {
+        font-size: x-large;
+    } */
+
+    #i_img1{
+        height: 20rem;
+        width: auto;
+    }
+    #i_img2{
+        height: 18rem;
+        width: auto;
+    }
+    #i_img3{
+        height: 20rem;
+        width: auto;
+    }
+    #i_img4{
+        height: 20rem;
+        width: auto;
+    }
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 2559.98px) {
+    #img_1 {
+        height: 70rem;
+        width: 100%;
+    }
+    #i_img1{
+        height: 20rem;
+        width: auto;
+    }
+    #i_img2{
+        height: 20rem;
+        width: auto;
+    }
+    #i_img3{
+        height: 20rem;
+        width: auto;
+    }
+    #i_img4{
+        height: 20rem;
+        width: auto;
+    }
+    
+}
+
+@media (min-width: 2560px) {
+    
+    #i_img1{
+        height: 30rem;
+        width: auto;
+    }
+    #i_img2{
+        height: 23rem;
+        width: auto;
+    }
+    #i_img3{
+        height: 27rem;
+        width: auto;
+    }
+    #i_img4{
+        height: 27rem;
+        width: auto;
+    }
+    
+    #img_1 {
+        height: 80rem;
+        width: 100%;
+    }
+
+    /* #mainNav ul li a,
+    #mainNav div a {
+        font-size: 3vh !important;
+    } */
+
+    .text p{
+        font-size: 5rem !important;
+    }
+
+    #text_proj{
+        max-width: 100rem !important;
+    }
+    
+    h2{
+        font-size: 4rem !important;
+    }
+    p{
+        font-size: 2.5rem !important;
+    }
+    
+    /* .navbar div #nameproj svg {
+        width: 4vh;
+        height: 5vh;
+    } */
+    
+    #btn_git{
+        font-size: 3rem;
+        /* padding: 1vh; */
+    }
+    
+}
