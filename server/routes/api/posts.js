@@ -480,7 +480,7 @@ router.post('/Usuario/Login', urlEncodedParser, async (req, res) => {
             usuario: req.body.usuario,
             senha: req.body.senha
         }).toArray();
-        if (u[0]) {
+        if (u != null || u[0] != null) {
             if (u[0].adm == true) {
                 req.session.usuario = u[0].usuario;
                 req.session.if = u[0].if;

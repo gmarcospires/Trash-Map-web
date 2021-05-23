@@ -37,6 +37,9 @@ const session = require("express-session");
          });
      },
      async coleta(req, res) {
+         if(!req.session || req.session == null){
+            res.redirect("/login")
+         }
         await client.connect();
         var cad = client.db('Veferoma').collection('Ponto');
         dado = await cad.find({
@@ -54,6 +57,9 @@ const session = require("express-session");
         res.render("coleta_adm",{dado});
      },
      contaAdm(req, res) {
+        if(!req.session || req.session == null){
+            res.redirect("/login")
+         }
         var aluno = req.session
          if (req.session.ok == "1" || req.session.ok == "2") {
              let ok = req.session.ok;
@@ -68,6 +74,9 @@ const session = require("express-session");
          });
      },
      contaAluno(req, res) {
+        if(!req.session || req.session == null){
+            res.redirect("/login")
+         }
          var aluno = req.session
          if (req.session.ok == "1" || req.session.ok == "2") {
              let ok = req.session.ok;
@@ -82,6 +91,9 @@ const session = require("express-session");
          });
      },
      async feedback(req, res) {
+        if(!req.session || req.session == null){
+            res.redirect("/login")
+         }
          await client.connect();
          var cad = client.db('Veferoma').collection('Instituto');
          var instituto = await cad.find({
@@ -106,6 +118,9 @@ const session = require("express-session");
 
      },
      async indexAdm(req, res) {
+        if(!req.session || req.session == null){
+            res.redirect("/login")
+         }
         await client.connect();
          var cad1 = client.db('Veferoma').collection('Coleta');
          var dado = await cad1.find({
@@ -133,6 +148,9 @@ const session = require("express-session");
          });
      },
      async info(req, res) {
+        if(!req.session || req.session == null){
+            res.redirect("/login")
+         }
         await client.connect();
         var cad = client.db('Veferoma').collection('Instituto');
         var dado = await cad.find({
@@ -148,6 +166,9 @@ const session = require("express-session");
         });
      },
      async indexAluno(req, res) {
+        if(!req.session || req.session == null){
+            res.redirect("/login")
+         }
         await client.connect();
         var cad = client.db('Veferoma').collection('Instituto');
         var dado = await cad.find({
@@ -165,11 +186,11 @@ const session = require("express-session");
              info,dado
          });
      },
-     login(req, res) {
+     async login(req, res) {
          if (req.session.ok == "1") {
              req.session.ok = "0";
              let ok = "1";
-             res.render("login", {
+             await res.render("login", {
                  ok
              });
          }
@@ -178,6 +199,9 @@ const session = require("express-session");
          res.render("login");
      },
      async rankingAdm(req, res) {
+        if(!req.session || req.session == null){
+            res.redirect("/login")
+         }
          await client.connect();
          var cad = client.db('Veferoma').collection('Tipo_Lixo');
          var tipoLixo = await cad.find({}).toArray()
@@ -190,12 +214,17 @@ const session = require("express-session");
              "qtd_Coletada_Total": -1
          }).toArray()
          client.close
+         let iff = req.session.if
          res.render("ranking_adm", {
              tipoLixo,
-             dado
+             dado, 
+             iff
          });
      },
      async rankingAluno(req, res) {
+        if(!req.session || req.session == null){
+            res.redirect("/login")
+         }
          await client.connect();
          var cad = client.db('Veferoma').collection('Tipo_Lixo');
          var tipoLixo = await cad.find({}).toArray()
@@ -208,12 +237,17 @@ const session = require("express-session");
              "qtd_Coletada_Total": -1
          }).toArray()
          client.close
+         let iff = req.session.if
          res.render("ranking_aluno", {
              tipoLixo,
-             dado
+             dado,
+             iff
          });
      },
      async reestudo(req, res) {
+        if(!req.session || req.session == null){
+            res.redirect("/login")
+         }
         await client.connect();
         var cad = client.db('Veferoma').collection('Ponto');
         dado = await cad.find({
